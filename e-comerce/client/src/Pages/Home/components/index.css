@@ -1,0 +1,124 @@
+.product {
+    max-width: 100% !important;
+    margin-top: 20px !important;
+    padding-left:120px !important;
+    padding-right:120px !important;
+}
+.bgleft {
+    left: 20px;
+}
+
+
+
+
+
+.product-week-image{
+    position: relative;
+    text-align: center;
+}
+
+.week-image {
+    height: 100%; width: 100%; object-fit: cover;
+}
+
+.sub-image {
+    height: 370px; width: 100%; object-fit: cover;
+}
+
+.week-text{
+    position:absolute;
+    font-family: Montserrat;
+    color:white;
+    right: 10%;
+    top: 20%;
+    font-family: Domine;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: normal;
+    text-align: right;
+}
+
+.sub-text{
+    width: 70%; 
+    text-align: center;
+    position:absolute;
+    color:white;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom: 1px solid white;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+}
+
+.sub-line{
+    position:absolute;
+
+    bottom: 5%;
+    left: 50%;
+}
+
+.sub-line hr{
+    boder-top: 1px solid red;
+}
+
+.product-week{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.home-shop{
+    position:absolute;
+    color:white;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffa15f !important;
+    border-color: #ffa15f !important;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    text-align: center;
+    width: 140px;
+    height: 40px;
+    padding-top:7px;
+}
+
+.home-shop:hover, .week-shop:hover{
+    background-color: #ffac70 !important;
+    color: white;
+    text-decoration: none;
+
+}
+
+.week-shop{
+    position:absolute;
+    color:white;
+    bottom: 10%;
+    right: 10%;
+    background-color: #ffa15f !important;
+    border-color: #ffa15f !important;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    text-align: center;
+    width: 140px;
+    height: 40px;
+    padding-top:7px;
+
+}

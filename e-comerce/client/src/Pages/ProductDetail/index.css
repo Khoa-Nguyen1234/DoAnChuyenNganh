@@ -1,0 +1,259 @@
+.similar-title::after{
+    content: "";
+    flex: 7 ;
+    border-bottom: 2px solid #000;
+    margin: auto;
+    margin-left:20px;
+}
+
+.similar-title:before{
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid #000;
+    margin: auto;
+    margin-right:20px;
+}
+
+.similar-product-container{
+    margin-top:20px;
+}
+
+.similar-title{
+    display: flex;
+    flex-direction: row;
+    font-size:17px;
+}
+
+.similar-product-container{
+    display: flex;
+    justify-content:center;
+}
+
+.similar-product{
+    margin-left: 20px;
+    width: 140px;
+}
+
+.similar-product img{
+    height:200px;
+    width: 140px;
+    object-fit: cover;
+}
+
+.similar-product h3{
+    margin-top : 10px;
+    font-size: 13px;
+    color: black;
+}
+
+.similar-container{
+    margin-bottom: 20px;
+}
+
+.product-detail{
+    padding: 0 120px 0 120px;
+}
+
+.review-container{
+    min-width:100%;
+    min-height: 180px;
+    text-align: center;
+    margin-bottom:30px;
+}
+
+.review-container .review-empty{
+    padding-top:80px;
+}
+
+.review-page-tab{
+    display: inline-flex;
+    float: right;
+    height: 20px;
+}
+
+.review-page-tab p{
+    margin: 0 !important;
+    margin-top: -2px;
+}
+
+.product-category-path{
+    display: flex;
+    justify-content: center;
+}
+
+.product-info-container{
+    margin: 30px 20px 0;
+}
+
+.product-all-picture{
+    display: inline-flex;
+}
+
+.product-info{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-many-picture{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product-many-picture img{
+    margin-bottom: 20px;
+    height: 130px !important;
+    width: 80px;
+    object-fit: cover;
+}
+
+.product-main-picture img{
+    margin-left: 20px;
+    height: 580px !important;
+    width: 420px;
+    object-fit: cover;
+}
+
+.product-add-cart{
+    width:100%;
+    height: 60px;
+    color: white;
+    box-shadow: none;
+    border: none;
+    text-align: center;
+    background-color:#5f6dff;
+    font-weight: bold;
+}
+
+.product-size-button{
+    height: 40px !important;
+    width: 40px !important;
+    color: rgb(134, 134, 134);
+    box-shadow: none;
+    border: 2px solid rgb(134, 134, 134);
+    text-align: center;
+    background-color:#ffffff;
+    margin-right: 10px;
+}
+
+
+
+.product-item-upper{
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    padding-bottom: 20px;
+}
+
+.product-color-button{
+    margin-bottom: 20px;
+}
+.product-quantity-button{
+    margin-bottom: 20px;
+}
+.product-info-size-title{
+    margin-left: 0px !important;
+    color: black;
+    font-size:14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-size-button-container{
+    margin-bottom: 20px;
+}
+
+.product-info-price{
+    margin-left: 0px !important;
+    font-size:22px;
+}
+
+.product-star-review{
+    display: flex;
+    align-items: center;
+}
+
+.product-star-review p {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+/* quantity picker css */
+
+.quantity-picker {
+    display: inline-block;
+    border:1px solid #dfdfdf;
+    border-radius: 3px;
+    vertical-align:middle;
+  }
+  .quantity-input:focus {
+    background: red;
+  }
+  
+  .quantity-modifier,
+  .quantity-display {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    outline: none;
+  }
+  
+  .quantity-modifier {
+    height: 54px;
+    width: 3rem;
+    font-size: 1.5rem;
+    background: #ffffff;
+    color: #888;
+    border: 0 solid #dbdbdb;
+    text-align: center;
+    cursor: pointer;
+  }
+  .quantity-modifier:hover {
+    background: #dadada;
+    color: #555555;
+  }
+
+  .product-item-info{
+      width: 400px;
+  }
+  
+  .quantity-modifier:focus {
+    outline:0;
+  }
+  
+  .left-modifier {
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .mod-disable {
+    color:#E0E0E0;
+  }
+  
+  .mod-disable:hover {
+    background-color: #f3f3f3 !important;
+    color:#E0E0E0;
+  }
+  
+  .right-modifier {
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .quantity-display {
+    width: 4rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+    border: 0;
+    border-top: 0 solid #dbdbdb;
+    border-bottom: 0 solid #dbdbdb;
+    text-align: center;
+  }
+
+  /*end of quantity picker css*/
+
+  .chosen{
+      color: white;
+      background-color: #ffa15f;
+      border:none;
+      box-shadow: none;
+  }
